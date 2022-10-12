@@ -46,7 +46,7 @@ namespace Moanso_GitHub
 			//Verificación de Seguros: 
 
 			if (RbBásico.Checked==true) {
-				Costo = Costo + 700.00;
+				Costo = Costo + 600.00;
 				Cotizacion += "Adquirió un seguro de $600 \r\n";
 			}
 			if (RbTerceros.Checked == true)

@@ -53,15 +53,15 @@
             this.LblNombre.Location = new System.Drawing.Point(20, 35);
             this.LblNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblNombre.Name = "LblNombre";
-            this.LblNombre.Size = new System.Drawing.Size(67, 13);
+            this.LblNombre.Size = new System.Drawing.Size(47, 13);
             this.LblNombre.TabIndex = 0;
-            this.LblNombre.Text = "Nombre edit:";
+            this.LblNombre.Text = "Nombre:";
             this.LblNombre.Click += new System.EventHandler(this.LblNombre_Click);
             // 
             // TxtNombre
             // 
             this.TxtNombre.Location = new System.Drawing.Point(80, 32);
-            this.TxtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(78, 20);
             this.TxtNombre.TabIndex = 1;
@@ -81,7 +81,7 @@
             this.RbBásico.AutoSize = true;
             this.RbBásico.Checked = true;
             this.RbBásico.Location = new System.Drawing.Point(64, 35);
-            this.RbBásico.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RbBásico.Margin = new System.Windows.Forms.Padding(2);
             this.RbBásico.Name = "RbBásico";
             this.RbBásico.Size = new System.Drawing.Size(57, 17);
             this.RbBásico.TabIndex = 3;
@@ -93,7 +93,7 @@
             // 
             this.RbTerceros.AutoSize = true;
             this.RbTerceros.Location = new System.Drawing.Point(64, 56);
-            this.RbTerceros.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RbTerceros.Margin = new System.Windows.Forms.Padding(2);
             this.RbTerceros.Name = "RbTerceros";
             this.RbTerceros.Size = new System.Drawing.Size(77, 17);
             this.RbTerceros.TabIndex = 4;
@@ -104,7 +104,7 @@
             // 
             this.RbTotal.AutoSize = true;
             this.RbTotal.Location = new System.Drawing.Point(64, 77);
-            this.RbTotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RbTotal.Margin = new System.Windows.Forms.Padding(2);
             this.RbTotal.Name = "RbTotal";
             this.RbTotal.Size = new System.Drawing.Size(49, 17);
             this.RbTotal.TabIndex = 5;
@@ -118,9 +118,9 @@
             this.GbSeguro.Controls.Add(this.RbBásico);
             this.GbSeguro.Controls.Add(this.RbTerceros);
             this.GbSeguro.Location = new System.Drawing.Point(22, 68);
-            this.GbSeguro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GbSeguro.Margin = new System.Windows.Forms.Padding(2);
             this.GbSeguro.Name = "GbSeguro";
-            this.GbSeguro.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GbSeguro.Padding = new System.Windows.Forms.Padding(2);
             this.GbSeguro.Size = new System.Drawing.Size(175, 116);
             this.GbSeguro.TabIndex = 6;
             this.GbSeguro.TabStop = false;
@@ -132,9 +132,9 @@
             this.GbEquipamiento.Controls.Add(this.CbAire);
             this.GbEquipamiento.Controls.Add(this.LblEquipo);
             this.GbEquipamiento.Location = new System.Drawing.Point(208, 68);
-            this.GbEquipamiento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GbEquipamiento.Margin = new System.Windows.Forms.Padding(2);
             this.GbEquipamiento.Name = "GbEquipamiento";
-            this.GbEquipamiento.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GbEquipamiento.Padding = new System.Windows.Forms.Padding(2);
             this.GbEquipamiento.Size = new System.Drawing.Size(182, 116);
             this.GbEquipamiento.TabIndex = 7;
             this.GbEquipamiento.TabStop = false;
@@ -145,7 +145,7 @@
             // 
             this.CbAudio.AutoSize = true;
             this.CbAudio.Location = new System.Drawing.Point(54, 77);
-            this.CbAudio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CbAudio.Margin = new System.Windows.Forms.Padding(2);
             this.CbAudio.Name = "CbAudio";
             this.CbAudio.Size = new System.Drawing.Size(108, 17);
             this.CbAudio.TabIndex = 2;
@@ -156,7 +156,7 @@
             // 
             this.CbAire.AutoSize = true;
             this.CbAire.Location = new System.Drawing.Point(54, 49);
-            this.CbAire.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CbAire.Margin = new System.Windows.Forms.Padding(2);
             this.CbAire.Name = "CbAire";
             this.CbAire.Size = new System.Drawing.Size(118, 17);
             this.CbAire.TabIndex = 1;
@@ -187,7 +187,7 @@
             // TxtCosto
             // 
             this.TxtCosto.Location = new System.Drawing.Point(80, 211);
-            this.TxtCosto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtCosto.Margin = new System.Windows.Forms.Padding(2);
             this.TxtCosto.Name = "TxtCosto";
             this.TxtCosto.Size = new System.Drawing.Size(78, 20);
             this.TxtCosto.TabIndex = 9;
@@ -196,7 +196,7 @@
             // BtnCotizar
             // 
             this.BtnCotizar.Location = new System.Drawing.Point(208, 211);
-            this.BtnCotizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnCotizar.Margin = new System.Windows.Forms.Padding(2);
             this.BtnCotizar.Name = "BtnCotizar";
             this.BtnCotizar.Size = new System.Drawing.Size(74, 20);
             this.BtnCotizar.TabIndex = 10;
@@ -207,7 +207,7 @@
             // TxtCotizacion
             // 
             this.TxtCotizacion.Location = new System.Drawing.Point(22, 249);
-            this.TxtCotizacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtCotizacion.Margin = new System.Windows.Forms.Padding(2);
             this.TxtCotizacion.Multiline = true;
             this.TxtCotizacion.Name = "TxtCotizacion";
             this.TxtCotizacion.Size = new System.Drawing.Size(369, 196);
@@ -226,7 +226,7 @@
             this.Controls.Add(this.GbSeguro);
             this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.LblNombre);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
