@@ -44,7 +44,7 @@ namespace Moanso_GitHub
 			Costo = Convert.ToDouble(TxtCosto.Text);
 
 			//Verificación de Seguros: 
-
+                        //probando
 			if (RbBásico.Checked==true) {
 				Costo = Costo + 600.00;
 				Cotizacion += "Adquirió un seguro de $600 \r\n";
