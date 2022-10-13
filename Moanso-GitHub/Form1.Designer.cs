@@ -63,7 +63,7 @@
             this.TxtNombre.Location = new System.Drawing.Point(80, 32);
             this.TxtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.TxtNombre.Name = "TxtNombre";
-            this.TxtNombre.Size = new System.Drawing.Size(78, 20);
+            this.TxtNombre.Size = new System.Drawing.Size(310, 20);
             this.TxtNombre.TabIndex = 1;
             // 
             // LblSeguro
