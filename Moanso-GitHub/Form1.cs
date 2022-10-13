@@ -47,12 +47,12 @@ namespace Moanso_GitHub
 
 			if (RbBásico.Checked==true) {
 				Costo = Costo + 600.00;
-				Cotizacion += "Adquirió un seguro de $600 \r\n";
+				Cotizacion += "Adquirió un seguro de $700 \r\n";
 			}
 			if (RbTerceros.Checked == true)
 			{
 				Costo += 800.00;
-				Cotizacion += "Adquirió un seguro de $800 \r\n";
+				Cotizacion += "Adquirió un seguro de $900 \r\n";
 			}
 			if (RbTotal.Checked == true)
 			{
